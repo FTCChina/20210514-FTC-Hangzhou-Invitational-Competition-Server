@@ -1,0 +1,326 @@
+17:44:22,201 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:44:22,201 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:44:22,202 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+17:44:22,202 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+17:44:22,202 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+17:44:22,202 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+17:44:22,214 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@1b083826 - URL [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+17:44:22,305 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:44:22,305 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:44:22,311 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+17:44:22,318 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:44:22,348 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+17:44:22,349 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+17:44:22,351 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:44:22,352 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:44:22,352 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+17:44:22,352 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+17:44:22,352 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:44:22,353 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@105fece7 - Registering current configuration as safe fallback point
+
+17:44:22.407 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @827ms to org.eclipse.jetty.util.log.Slf4jLog
+17:44:22.722 [main] INFO  o.usfirst.ftc.server.SQLiteServerDAO - Creating server.db
+17:44:23.581 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+17:44:23.583 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+17:44:23.586 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+17:44:23.658 [Thread-9] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+17:44:23.658 [Thread-9] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+17:44:23.660 [Thread-9] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 15.0.2+7-27
+17:44:23.676 [Thread-9] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+17:44:23.676 [Thread-9] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+17:44:23.677 [Thread-9] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+17:44:23.681 [Thread-9] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@36b83133{/,null,AVAILABLE}
+17:44:23.681 [Thread-9] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@3c7195e5{/apiv1,null,AVAILABLE}
+17:44:23.681 [Thread-9] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@5c966cc{/api,null,AVAILABLE}
+17:44:23.690 [Thread-9] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@54c28c1f{/,null,AVAILABLE}
+17:44:23.695 [Thread-9] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@16634b43{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+17:44:23.695 [Thread-9] INFO  org.eclipse.jetty.server.Server - Started @2120ms
+17:44:23.695 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+17:44:24.265 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+17:44:24.879 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:24:879 PM, Session: node082ba2axvrniqqbsrotc2n1jy0, Route: http://localhost/ GET
+17:44:30.337 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:30:337 PM, Session: node082ba2axvrniqqbsrotc2n1jy0, Route: http://localhost/login/ GET
+17:44:40.786 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:40:786 PM, Session: node082ba2axvrniqqbsrotc2n1jy0, Route: http://localhost/callback/ POST
+17:44:40.805 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:40:805 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/ GET
+17:44:42.502 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:42:502 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/setup/event/ GET
+17:44:43.928 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:43:928 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/setup/offline/ GET
+17:44:46.798 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:46:798 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/select/event/ GET
+17:44:47.036 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:47:036 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/select/event/list/ GET
+17:44:49.430 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:49:430 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/select/event/?week=30 GET
+17:44:49.666 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:49:666 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/select/event/list/?week=30 GET
+17:44:52.053 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:44:52:053 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/create/event/ GET
+17:45:25.146 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:45:25:146 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/create/event/ POST
+17:45:25.159 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Creating hz_invitational_21.db.
+Checking to see if new accounts need to be created for hz_invitational_21
+Accounts had not been generated for hz_invitational_21 - none missing to create
+17:45:26.855 [Thread-23] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+17:45:27.118 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:45:27:118 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:46:01.162 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:01:162 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/defaultaccounts/ GET
+17:46:05.303 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:05:303 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:46:07.154 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:07:154 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:46:07.420 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:07:420 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:46:07.429 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:07:429 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:46:07.984 [qtp111307131-28] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:07:984 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:46:08.032 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:08:032 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:46:16.859 [Thread-23] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+17:46:31.715 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:31:715 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:46:31.726 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8999
+17:46:34.099 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:34:099 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/8999/ DELETE
+17:46:45.502 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:45:502 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:46:54.445 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:46:54:445 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:46:54.456 [qtp111307131-30] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1327
+17:47:00.436 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:00:436 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:00.447 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1984
+17:47:05.889 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:05:889 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:05.900 [qtp111307131-30] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1024
+17:47:08.651 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:08:651 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:08.662 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 4661
+17:47:11.275 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:11:275 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:11.289 [qtp111307131-30] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7647
+17:47:13.779 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:13:779 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:13.789 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 308
+17:47:14.778 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:14:778 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:14.789 [qtp111307131-30] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1354
+17:47:17.410 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:17:410 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:17.424 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6626
+17:47:19.035 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:19:035 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:19.046 [qtp111307131-30] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 2700
+17:47:21.362 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:21:362 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:21.375 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6258
+17:47:23.016 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:23:016 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:23.026 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1408
+17:47:24.677 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:24:677 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:24.688 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1216
+17:47:26.234 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:26:234 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:26.247 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1090
+17:47:27.242 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:27:242 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:27.255 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1343
+17:47:28.910 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:28:910 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:28.922 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1387
+17:47:30.282 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:30:282 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:30.294 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1337
+17:47:31.842 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:31:842 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:31.856 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 5451
+17:47:34.908 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:34:908 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:34.919 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 10821
+17:47:38.850 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:38:850 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:38.860 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7050
+17:47:41.226 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:41:226 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:41.240 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7500
+17:47:43.608 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:43:608 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:43.619 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7575
+17:47:44.941 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:44:941 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:44.956 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1378
+17:47:46.977 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:46:977 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:46.998 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 2402
+17:47:49.042 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:49:042 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:49.054 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6120
+17:47:50.800 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:50:800 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:50.812 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6868
+17:47:52.169 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:52:168 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:52.180 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7201
+17:47:53.809 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:53:809 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:53.819 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8639
+17:47:54.914 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:47:54:914 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:47:54.925 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8686
+17:48:02.833 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:02:833 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:02.843 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 9384
+17:48:04.065 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:04:065 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:04.077 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1339
+17:48:06.817 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:06:817 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:06.830 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 2360
+17:48:08.816 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:08:816 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:08.827 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 5858
+17:48:10.114 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:10:114 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:10.126 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 2988
+17:48:11.985 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:11:985 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:11.998 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 5829
+17:48:12.931 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:12:931 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:13.004 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 2929
+17:48:15.095 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:15:095 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:15.109 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1784
+17:48:16.196 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:16:196 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:16.212 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1120
+17:48:18.942 [qtp111307131-27] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:18:942 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:18.953 [qtp111307131-27] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 4396
+17:48:20.825 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:20:825 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:20.839 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1680
+17:48:22.271 [qtp111307131-36] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:22:271 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:22.285 [qtp111307131-36] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1792
+17:48:24.369 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:24:369 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:24.380 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 9126
+17:48:27.320 [qtp111307131-36] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:27:320 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:27.329 [qtp111307131-36] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7851
+17:48:29.869 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:29:869 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:29.880 [qtp111307131-38] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6986
+17:48:31.835 [qtp111307131-36] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:48:31:835 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:48:31.849 [qtp111307131-36] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1957
+17:49:21.027 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:49:21:027 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/10821/ DELETE
+17:49:25.906 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:49:25:906 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:49:25.928 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 821
+17:49:56.732 [qtp111307131-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:49:56:732 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/308/ DELETE
+17:51:02.881 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:02:881 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ POST
+17:51:03.783 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:03:783 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:51:03.825 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:03:825 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:51:04.502 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:04:502 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:51:04.552 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:04:552 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:51:10.115 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:10:115 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:51:23.674 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:23:674 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:51:24.153 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:24:153 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:51:24.156 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:24:156 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:51:24.820 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:24:819 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:51:24.870 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:24:870 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:51:27.221 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:27:221 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ POST
+17:51:27.533 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:27:533 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:51:27.541 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:27:541 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:51:28.214 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:28:214 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:51:28.271 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:28:271 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:51:31.544 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:31:544 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/9384/ DELETE
+17:51:32.510 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:32:510 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/9126/ DELETE
+17:51:33.145 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:33:145 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/8686/ DELETE
+17:51:33.510 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:33:510 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/8999/ DELETE
+17:51:33.947 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:33:947 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/7851/ DELETE
+17:51:34.408 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:34:408 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/8639/ DELETE
+17:51:34.562 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:34:562 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/7647/ DELETE
+17:51:34.839 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:34:839 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/7575/ DELETE
+17:51:35.122 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:35:122 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/7500/ DELETE
+17:51:35.405 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:35:405 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/7201/ DELETE
+17:51:35.701 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:35:701 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/7050/ DELETE
+17:51:35.998 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:35:998 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/6986/ DELETE
+17:51:36.306 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:36:306 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/6868/ DELETE
+17:51:36.465 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:36:465 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/6626/ DELETE
+17:51:36.766 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:36:766 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/6258/ DELETE
+17:51:36.915 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:36:915 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/6120/ DELETE
+17:51:37.069 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:37:069 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/5858/ DELETE
+17:51:37.216 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:37:216 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/5829/ DELETE
+17:51:37.505 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:37:505 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/5451/ DELETE
+17:51:37.813 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:37:813 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/4661/ DELETE
+17:51:38.098 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:38:098 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/4396/ DELETE
+17:51:38.946 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:38:946 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/821/ DELETE
+17:51:39.234 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:39:234 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1024/ DELETE
+17:51:39.388 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:39:388 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1090/ DELETE
+17:51:39.694 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:39:694 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1120/ DELETE
+17:51:39.849 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:39:849 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1216/ DELETE
+17:51:40.008 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:40:008 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1327/ DELETE
+17:51:40.320 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:40:320 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1337/ DELETE
+17:51:40.483 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:40:483 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1339/ DELETE
+17:51:40.653 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:40:653 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1343/ DELETE
+17:51:40.822 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:40:822 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1354/ DELETE
+17:51:40.991 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:40:991 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1378/ DELETE
+17:51:41.155 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:41:155 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1387/ DELETE
+17:51:41.323 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:41:323 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1408/ DELETE
+17:51:41.568 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:41:568 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1680/ DELETE
+17:51:41.828 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:41:828 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1784/ DELETE
+17:51:42.008 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:42:008 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1792/ DELETE
+17:51:42.317 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:42:317 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1957/ DELETE
+17:51:42.485 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:42:485 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1984/ DELETE
+17:51:42.668 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:42:668 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/2360/ DELETE
+17:51:42.849 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:42:849 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/2402/ DELETE
+17:51:43.027 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:43:026 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/2700/ DELETE
+17:51:43.204 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:43:204 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/2929/ DELETE
+17:51:43.447 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:43:447 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/2988/ DELETE
+17:51:47.004 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:47:004 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ POST
+17:51:47.364 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:47:364 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:51:47.383 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:47:383 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:51:47.972 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:47:972 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:51:48.039 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:51:48:039 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:52:33.638 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:52:33:638 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ POST
+17:52:33.683 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 0
+17:52:33.725 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 2
+17:52:33.768 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 4
+17:52:33.818 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 9
+17:52:33.869 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6
+17:52:33.929 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 3
+17:52:34.041 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 5
+17:52:34.075 [qtp111307131-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8
+17:52:34.337 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:52:34:337 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:52:34.349 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:52:34:349 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:52:34.989 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:52:34:989 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:52:35.036 [qtp111307131-29] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:52:35:036 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:54:11.614 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:11:614 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/0/ DELETE
+17:54:11.814 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:11:814 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1/ DELETE
+17:54:12.081 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:12:081 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/2/ DELETE
+17:54:12.442 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:12:442 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/0/ DELETE
+17:54:12.599 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:12:599 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/3/ DELETE
+17:54:12.755 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:12:755 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/4/ DELETE
+17:54:12.892 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:12:892 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/5/ DELETE
+17:54:13.193 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:13:193 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/6/ DELETE
+17:54:13.488 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:13:488 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/7/ DELETE
+17:54:13.649 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:13:649 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/8/ DELETE
+17:54:13.805 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:13:805 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/9/ DELETE
+17:54:17.836 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:17:836 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ POST
+17:54:18.420 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:18:420 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:54:18.439 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:18:439 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:54:19.070 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:19:070 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:54:19.119 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:19:119 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:54:20.720 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:20:720 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/0/ DELETE
+17:54:21.373 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:21:373 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/0/ DELETE
+17:54:21.522 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:21:522 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/1/ DELETE
+17:54:21.685 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:21:685 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/2/ DELETE
+17:54:21.980 [qtp111307131-23] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:21:980 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/3/ DELETE
+17:54:22.138 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:22:138 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/3/ DELETE
+17:54:22.299 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:22:299 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/4/ DELETE
+17:54:22.447 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:22:447 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/5/ DELETE
+17:54:22.606 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:22:606 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/6/ DELETE
+17:54:22.775 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:22:775 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/7/ DELETE
+17:54:23.059 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:23:059 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/8/ DELETE
+17:54:23.247 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:23:247 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/9/ DELETE
+17:54:58.794 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:54:58:794 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:02.530 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:02:530 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:05.987 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:05:987 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:55:07.225 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:07:225 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:55:07.452 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:07:452 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:55:07.474 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:07:474 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:55:08.036 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:08:036 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:55:08.100 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:08:100 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:55:10.658 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:10:658 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:11.760 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:11:760 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:13.939 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:13:939 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:15.033 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:15:033 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:17.360 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:17:360 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:19.867 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:19:867 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:20.654 [qtp111307131-55] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:20:654 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:24.752 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:24:752 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:26.479 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:26:479 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:27.384 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:27:384 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:29.576 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:29:576 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:30.600 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:30:600 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:31.823 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:31:823 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:35.025 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:35:025 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:41.847 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:41:847 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:44.976 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:44:976 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:46.655 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:46:655 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:48.440 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:48:440 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:50.482 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:50:482 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:52.320 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:52:320 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:55:55.417 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:55:55:417 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:01.535 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:01:535 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:01.547 [qtp111307131-54] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 3970
+17:56:06.345 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:06:345 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:08.696 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:08:696 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:10.217 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:10:217 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:13.792 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:13:792 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:16.002 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:16:002 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:17.201 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:17:201 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:18.535 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:18:535 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:20.655 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:20:655 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:22.413 [qtp111307131-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:22:413 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:26.311 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:26:311 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:28.455 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:28:455 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:30.453 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:30:453 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:32.134 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:32:134 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:33.976 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:33:976 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:36.071 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:36:071 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:38.024 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:38:024 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:42.760 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:42:760 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:45.723 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:45:723 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:48.255 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:48:255 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:50.951 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:50:951 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:50.962 [qtp111307131-30] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 9156
+17:56:53.177 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:53:177 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:56:55.760 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:56:55:760 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ PUT
+17:57:03.354 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:57:03:354 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:57:04.826 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:57:04:826 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:57:05.153 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:57:05:153 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:57:05.168 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:57:05:168 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/countries/ GET
+17:57:05.850 [qtp111307131-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:57:05:850 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/states/?country=USA GET
+17:57:05.902 [qtp111307131-30] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:57:05:902 PM, Session: node01vt0xqgwu0iij1ovcmf7f2m01b1, Route: http://localhost/teams/location/?country=USA&state=AE GET

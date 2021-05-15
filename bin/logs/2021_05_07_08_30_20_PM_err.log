@@ -1,0 +1,258 @@
+20:30:20,812 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:30:20,813 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+20:30:20,813 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+20:30:20,813 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+20:30:20,813 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+20:30:20,829 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@1b083826 - URL [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+20:30:20,899 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:30:20,900 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:30:20,907 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+20:30:20,915 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:30:20,945 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+20:30:20,946 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+20:30:20,951 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:30:20,953 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+20:30:20,953 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+20:30:20,953 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+20:30:20,953 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:30:20,955 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@105fece7 - Registering current configuration as safe fallback point
+
+20:30:20.995 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @816ms to org.eclipse.jetty.util.log.Slf4jLog
+Checking to see if new accounts need to be created for hz_invitational_21
+Accounts had not been generated for hz_invitational_21 - none missing to create
+20:30:22.154 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+20:30:22.306 [main] INFO  org.usfirst.ftc.event.EventsManager - Loaded active event hz_invitational_21
+20:30:22.316 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+20:30:22.317 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+20:30:22.320 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+20:30:22.457 [Thread-23] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+20:30:22.457 [Thread-23] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+20:30:22.459 [Thread-23] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 15.0.2+7-27
+20:30:22.480 [Thread-23] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+20:30:22.480 [Thread-23] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+20:30:22.481 [Thread-23] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+20:30:22.484 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@10a937f7{/,null,AVAILABLE}
+20:30:22.484 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@59a65cd4{/apiv1,null,AVAILABLE}
+20:30:22.485 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@7f87feb7{/api,null,AVAILABLE}
+20:30:22.492 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@781f3fc2{/,null,AVAILABLE}
+20:30:22.497 [Thread-23] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@69e757b7{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+20:30:22.497 [Thread-23] INFO  org.eclipse.jetty.server.Server - Started @2323ms
+20:30:22.497 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+20:30:23.075 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+20:30:23.681 [qtp733387766-46] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:23:679 PM, Session: node01keg0ll6lhepyc07m1zojiplf0, Route: http://localhost/ GET
+20:30:23.710 [qtp733387766-42] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:23:710 PM, Session: node01keg0ll6lhepyc07m1zojiplf0, Route: http://localhost/event/hz_invitational_21/ GET
+20:30:26.770 [qtp733387766-48] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:26:770 PM, Session: node01keg0ll6lhepyc07m1zojiplf0, Route: http://localhost/login/ GET
+20:30:29.349 [qtp733387766-47] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:29:349 PM, Session: node01keg0ll6lhepyc07m1zojiplf0, Route: http://localhost/callback/ POST
+20:30:29.369 [qtp733387766-48] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:29:369 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/ GET
+20:30:29.385 [qtp733387766-47] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:29:385 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+20:30:31.548 [qtp733387766-48] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:31:548 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+20:30:39.863 [qtp733387766-46] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:39:863 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+20:30:40.224 [qtp733387766-46] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:40:224 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+20:30:40.913 [qtp733387766-46] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:30:40:913 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/main.css/ GET
+20:31:12.155 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+20:40:24.149 [qtp733387766-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:40:24:148 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/runmatchmaker/ POST
+20:40:26.365 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:40:26:365 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/runmatchmaker/ POST
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=1 7050 0 1784 0 9156 0 5451 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=2 1327 0 2988 0 8639 0 1792 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=3 1339 0 7575 0 1024 0 5829 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=4 7647 0 1343 0 1408 0 2700 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=5 6868 0 6986 0 1090 0 7851 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=6 1337 0 7500 0 1378 0 6258 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=7 7201 0 2402 0 8999 0 1680 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=8 9384 0 1984 0 5858 0 1387 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=9 1120 0 1957 0 2929 0 1354 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=10 2360 0 8686 0 821 0 6626 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=11 3970 0 4661 0 1216 0 4396 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=12 6120 0 7050 0 2988 0 1024 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=13 1339 0 5451 0 1327 0 2402 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=14 1343 0 6868 0 5829 0 1784 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=15 7851 0 2929 0 1387 0 8686 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=16 6258 0 9156 0 7647 0 4396 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=17 7201 0 1408 0 1792 0 6626 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=18 7575 0 8639 0 5858 0 1957 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=19 6120 0 821 0 4661 0 9384 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=20 1354 0 2360 0 1216 0 1337 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=21 3970 0 1984 0 1090 0 7500 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=22 2700 0 1680 0 6986 0 1378 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=23 8999 0 9156 0 1120 0 1792 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=24 6120 1 5858 0 6258 0 1408 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=25 6868 0 8686 0 2402 0 4661 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=26 1343 0 3970 0 5451 0 7851 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=27 1337 0 8639 0 7201 0 1387 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=28 7050 0 7575 0 7647 0 7500 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=29 1024 0 1354 0 821 0 8999 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=30 2700 0 2929 0 4396 0 5829 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=31 6986 0 1957 0 1984 0 2360 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=32 1784 0 1680 0 1327 0 1090 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=33 9384 0 1216 0 2988 0 1339 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=34 1378 0 6626 0 1120 0 7647 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=35 5829 0 2402 0 6258 0 3970 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=36 6120 0 5451 0 2929 0 6986 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=37 8686 0 1327 0 1337 0 1024 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=38 1354 0 7500 0 1339 0 9156 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=39 1216 0 1090 0 8639 0 7050 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=40 6626 0 4661 0 2700 0 1784 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=41 4396 0 7201 0 7851 0 5858 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=42 9384 0 1120 0 1680 0 1343 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=43 1792 0 1378 0 1984 0 821 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=44 2360 0 8999 0 7575 0 1387 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=45 1408 0 6868 0 1957 0 2988 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=46 1784 0 6258 0 2929 0 1024 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=47 1216 0 1680 0 6120 0 9156 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=48 7851 0 1378 0 4661 0 5829 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=49 6626 0 1339 0 8639 0 1984 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=50 4396 0 1337 0 6868 0 8999 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=51 5858 0 2700 0 5451 0 821 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=52 1387 0 1408 0 7500 0 1327 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=53 2402 0 2988 0 2360 0 1343 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=54 6986 0 1354 0 3970 0 7575 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=55 8686 0 9384 0 7050 0 7201 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=56 1957 0 7647 0 1792 0 1090 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=57 821 0 4396 0 1120 0 1339 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=58 6258 0 2700 0 6868 0 1327 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=59 7851 0 6120 0 1984 0 1354 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=60 8999 0 1408 0 1378 0 2929 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=61 5451 0 1792 0 7500 0 1216 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=62 7050 0 1957 0 6626 0 2402 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=63 5858 0 1024 0 1680 0 3970 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=64 1090 0 7201 0 7575 0 4661 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=65 9156 0 6986 0 1343 0 1337 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=66 1784 0 2988 0 8686 0 1120 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=67 8639 0 7647 0 2360 0 9384 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=68 5829 0 6626 0 1387 0 6120 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=69 4661 0 5451 0 1680 0 6258 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=70 1792 0 1337 0 1339 0 7050 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=71 1984 0 1216 0 7201 0 2700 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=72 2929 0 7575 0 9156 0 6868 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=73 8999 0 3970 0 2988 0 7647 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=74 1378 0 8639 0 8686 0 1343 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=75 1387 0 821 0 1784 0 6986 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=76 2402 0 1090 0 1354 0 5858 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=77 5829 0 1327 0 1957 0 9384 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=78 1024 0 1120 0 1408 0 7851 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper saveGeneratedMatches
+��Ϣ: processing line=79 7500 0 2360 0 4396 0 6120 0
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper.ProcessThread run
+��Ϣ: Deleting team list file../lib/MatchMaker/windows\matchGenTeams.txt
+5�� 07, 2021 8:41:18 ���� MatchMakerWrapper.ProcessThread run
+��Ϣ: MatchMaker result code = 0
+20:41:39.780 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:41:39:779 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/waitformatchmaker/?mpt=7&cycleTime=420000&schedule=%5B%7B%22start%22%3A1621046400000%2C%22matchCount%22%3A%2211%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22label%22%3A%22Lunch+Break%22%2C%22start%22%3A1621051200000%2C%22duration%22%3A%2260%22%2C%22type%22%3A%22BREAK%22%7D%2C%7B%22start%22%3A1621054800000%2C%22matchCount%22%3A%2243%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22start%22%3A1621126800000%2C%22matchCount%22%3A%2218%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22label%22%3A%22Lunch+Break%22%2C%22start%22%3A1621134360000%2C%22duration%22%3A%22114%22%2C%22type%22%3A%22BREAK%22%7D%2C%7B%22start%22%3A1621141200000%2C%22matchCount%22%3A%227%22%2C%22type%22%3A%22MATCH%22%7D%5D&rerun=true&minT14=false GET
+20:41:39.908 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:41:39:908 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+20:41:39.975 [qtp733387766-46] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:41:39:975 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/main.css/ GET
+20:52:02.903 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:52:02:903 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+20:55:12.914 [qtp733387766-48] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:12:914 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+20:55:13.243 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:13:243 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+20:55:13.259 [qtp733387766-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:13:259 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/teams/countries/ GET
+20:55:14.211 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:14:211 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/teams/states/?country=USA GET
+20:55:14.281 [qtp733387766-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:14:281 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+20:55:14.807 [qtp733387766-48] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:14:807 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+20:55:17.478 [qtp733387766-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:17:478 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+20:55:17.831 [qtp733387766-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:17:831 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+20:55:18.430 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:55:18:430 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/main.css/ GET
+20:58:02.357 [qtp733387766-46] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:58:02:357 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/ GET
+20:58:02.397 [qtp733387766-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:58:02:396 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+20:58:04.815 [qtp733387766-48] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:58:04:815 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+20:58:06.310 [qtp733387766-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:58:06:310 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+20:58:07.697 [qtp733387766-48] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:58:07:697 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/control/ GET
+20:58:08.023 [qtp733387766-46] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:58:08:023 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/control/schedule/ GET
+20:58:19.931 [qtp733387766-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 08:58:19:931 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+21:01:08.577 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:01:08:577 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/ GET
+21:01:08.597 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:01:08:597 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+21:01:10.110 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:01:10:110 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/schedule/ GET
+21:19:34.600 [qtp733387766-63] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:34:600 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/ GET
+21:19:34.621 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:34:621 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+21:19:36.641 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:36:641 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+21:19:41.543 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:41:543 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+21:19:42.720 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:42:720 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+21:19:44.686 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:44:686 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+21:19:46.054 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:46:054 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/control/ GET
+21:19:46.291 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:46:291 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/control/schedule/ GET
+21:19:56.255 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:19:56:254 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+21:20:00.686 [qtp733387766-57] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:20:00:686 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+21:21:43.594 [qtp733387766-46] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:21:43:594 PM, Session: node0ca9q1pjj5kthjt8xtq5gua492, Route: http://localhost/event/hz_invitational_21/ GET
+21:21:49.941 [qtp733387766-63] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:21:49:941 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+21:21:54.008 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:21:54:008 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/control/ GET
+21:21:54.256 [qtp733387766-64] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:21:54:256 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/control/schedule/ GET
+21:22:22.394 [qtp733387766-63] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:22:22:394 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/config/set/ POST
+21:22:22.856 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:22:22:856 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/config/set/ POST
+21:22:38.175 [qtp733387766-63] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:22:38:175 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/ GET
+21:22:41.018 [qtp733387766-64] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:22:41:018 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+21:22:42.844 [qtp733387766-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 09:22:42:844 PM, Session: node01b7q60w8ohwbac5rfgmg9zc1q1, Route: http://localhost/event/hz_invitational_21/edit/ GET

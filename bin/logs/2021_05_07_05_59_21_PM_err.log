@@ -1,0 +1,815 @@
+17:59:21,375 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:59:21,376 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:59:21,377 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+17:59:21,377 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+17:59:21,377 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+17:59:21,377 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+17:59:21,392 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@1b083826 - URL [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+17:59:21,455 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:59:21,456 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:59:21,465 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+17:59:21,474 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:59:21,505 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+17:59:21,508 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+17:59:21,512 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:59:21,513 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:59:21,514 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+17:59:21,514 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+17:59:21,514 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:59:21,515 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@105fece7 - Registering current configuration as safe fallback point
+
+17:59:21.566 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @755ms to org.eclipse.jetty.util.log.Slf4jLog
+Checking to see if new accounts need to be created for hz_invitational_21
+Accounts had not been generated for hz_invitational_21 - none missing to create
+17:59:22.804 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+17:59:22.940 [main] INFO  org.usfirst.ftc.event.EventsManager - Loaded active event hz_invitational_21
+17:59:22.951 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+17:59:22.957 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+17:59:22.959 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+17:59:23.110 [Thread-23] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+17:59:23.110 [Thread-23] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+17:59:23.112 [Thread-23] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 15.0.2+7-27
+17:59:23.133 [Thread-23] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+17:59:23.133 [Thread-23] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+17:59:23.135 [Thread-23] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+17:59:23.137 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@2ddf6c6b{/,null,AVAILABLE}
+17:59:23.138 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@3933547e{/apiv1,null,AVAILABLE}
+17:59:23.138 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@78f28e3d{/api,null,AVAILABLE}
+17:59:23.145 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@64ef0a80{/,null,AVAILABLE}
+17:59:23.153 [Thread-23] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3ec3f3a9{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+17:59:23.153 [Thread-23] INFO  org.eclipse.jetty.server.Server - Started @2346ms
+17:59:23.154 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+17:59:23.879 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+17:59:24.519 [qtp1029917728-42] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:24:519 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/ GET
+17:59:24.543 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:24:543 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/event/hz_invitational_21/ GET
+17:59:27.027 [qtp1029917728-42] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:27:027 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:59:27.044 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:27:044 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/login/ GET
+17:59:29.429 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:29:429 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/callback/ POST
+17:59:29.454 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:29:454 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:59:29.738 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:29:738 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:59:29.761 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:29:759 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/countries/ GET
+17:59:30.393 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:30:393 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/states/?country=USA GET
+17:59:30.444 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:30:444 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:59:32.662 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:32:662 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/4/ DELETE
+17:59:34.861 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:34:860 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:59:36.263 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:36:263 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:59:36.552 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:36:552 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:59:36.565 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:36:565 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/countries/ GET
+17:59:37.203 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:37:203 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/states/?country=USA GET
+17:59:37.244 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:37:244 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:59:43.453 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:43:452 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:59:44.722 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:44:722 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:59:44.975 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:44:975 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:59:44.992 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:44:992 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/countries/ GET
+17:59:45.680 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:45:680 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/states/?country=USA GET
+17:59:45.727 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:45:727 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/location/?country=USA&state=AE GET
+18:00:12.808 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+18:00:13.351 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:00:13:351 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:00:22.532 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:00:22:532 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:00:40.635 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:00:40:635 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:00:47.717 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:00:47:717 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:01:06.653 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:01:06:653 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:01:40.602 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:01:40:602 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:02:09.445 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:02:09:445 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:02:27.802 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:02:27:802 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:02:49.847 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:02:49:847 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:03:17.793 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:03:17:792 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:03:42.140 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:03:42:140 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:04:15.590 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:04:15:590 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:23:47.667 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:23:47:667 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:24:14.945 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:24:14:945 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:24:45.213 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:24:45:213 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:25:07.260 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:25:07:260 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:25:30.893 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:25:30:893 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:26:14.744 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:26:14:743 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:26:39.444 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:26:39:444 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:26:55.644 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:26:55:644 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:27:11.011 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:27:11:011 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:27:30.566 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:27:30:566 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:27:51.014 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:27:51:014 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:29:04.339 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:29:04:339 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:29:22.550 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:29:22:550 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:29:46.906 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:29:46:906 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:30:17.936 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:30:17:936 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:30:51.684 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:30:51:684 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:31:23.784 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:31:23:784 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:31:45.721 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:31:45:721 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:32:03.460 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:32:03:460 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:32:27.303 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:32:27:303 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:32:39.016 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:32:39:016 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:32:59.264 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:32:59:264 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:34:48.635 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:34:48:635 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:35:06.402 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:35:06:402 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:35:22.569 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:35:22:569 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:35:37.574 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:35:37:574 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:35:51.620 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:35:51:620 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:36:02.155 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:36:02:155 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:36:13.207 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:36:13:207 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:36:52.922 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:36:52:922 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:37:58.905 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:37:58:904 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:38:17.518 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:38:17:518 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:38:33.486 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:38:33:486 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:38:55.446 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:38:55:446 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:39:15.826 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:39:15:826 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:39:34.618 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:39:34:618 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:39:39.806 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:39:39:806 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+18:47:16.732 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:47:16:732 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+18:47:17.064 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:47:17:064 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+18:50:04.977 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:04:977 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/preview/ POST
+18:50:05.058 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:05:058 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+18:50:12.398 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:12:398 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ POST
+18:50:15.352 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:15:352 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ POST
+18:50:15.901 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:15:900 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+18:50:19.281 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:19:281 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+18:50:20.281 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:20:281 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/schedule/ GET
+18:50:21.710 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:21:710 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+18:50:56.119 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:50:56:118 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+18:51:03.294 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:51:03:294 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+18:51:03.547 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:51:03:547 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+18:51:05.497 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:51:05:497 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/runmatchmaker/ POST
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=1 5451 0 6868 0 1957 0 2700 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=2 1408 0 9384 0 7201 0 1792 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=3 1354 0 8686 0 6986 0 6120 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=4 8639 0 2402 0 1339 0 7647 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=5 5858 0 4661 0 7851 0 1216 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=6 1120 0 1327 0 7050 0 5829 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=7 6626 0 1784 0 7575 0 2988 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=8 7500 0 1024 0 4396 0 1680 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=9 8999 0 9156 0 2360 0 2929 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=10 1343 0 1337 0 1378 0 6258 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=11 1387 0 3970 0 1090 0 1984 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=12 6626 0 9384 0 821 0 4661 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=13 1957 0 7201 0 7647 0 7050 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=14 1354 0 1680 0 8639 0 9156 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=15 2360 0 7851 0 6120 0 1343 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=16 7500 0 2700 0 2929 0 3970 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=17 1784 0 4396 0 5829 0 8686 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=18 7575 0 821 0 1024 0 5451 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=19 1339 0 6258 0 1090 0 1120 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=20 1408 0 6986 0 1337 0 1387 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=21 1327 0 1984 0 8999 0 1378 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=22 1216 0 1792 0 2988 0 2402 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=23 7647 0 5858 0 6868 0 7500 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=24 7851 1 821 0 1339 0 2929 1
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=25 1337 1 5451 0 9156 0 6120 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=26 5829 0 1408 0 6626 0 6258 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=27 1984 0 1792 0 1354 0 1957 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=28 1387 0 5858 0 4396 0 7050 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=29 1784 0 7201 0 1024 0 1327 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=30 1378 0 3970 0 6986 0 1216 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=31 1343 0 2402 0 8999 0 8686 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=32 6868 0 1120 0 4661 0 2360 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=33 7575 0 1090 0 8639 0 9384 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=34 2988 0 1984 0 2700 0 1680 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=35 821 0 4396 0 9156 0 6986 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=36 1408 0 1957 0 1216 0 1339 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=37 6120 0 5829 0 4661 0 1387 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=38 5451 0 1378 0 1120 0 5858 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=39 2988 0 7050 0 3970 0 2360 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=40 8686 0 1090 0 1327 0 6626 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=41 7201 0 2929 0 2402 0 1354 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=42 1680 0 7851 0 9384 0 8999 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=43 1343 0 8639 0 7500 0 1784 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=44 1337 0 1024 0 1792 0 6868 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=45 2700 0 7575 0 6258 0 7647 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=46 1327 0 1354 0 5451 0 2988 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=47 1680 0 2360 0 2402 0 6626 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=48 2929 0 1378 0 8686 0 1408 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=49 7050 0 1090 0 1784 0 7851 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=50 6258 0 8639 0 4661 0 1957 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=51 2700 0 8999 0 1337 0 7201 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=52 1216 0 1387 0 821 0 1343 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=53 1792 0 9156 0 5858 0 3970 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=54 6120 0 7647 0 1024 0 1120 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=55 6868 0 1339 0 4396 0 7575 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=56 6986 0 7500 0 9384 0 5829 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=57 7851 0 1337 0 1984 0 2929 0
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper.ProcessThread run
+信息: Deleting team list file../lib/MatchMaker/windows\matchGenTeams.txt
+5月 07, 2021 6:51:49 下午 MatchMakerWrapper.ProcessThread run
+信息: MatchMaker result code = 0
+18:52:01.759 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:52:01:759 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/waitformatchmaker/?mpt=5&cycleTime=420000&schedule=%5B%7B%22start%22%3A1621044600000%2C%22matchCount%22%3A%2215%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22label%22%3A%22Lunch+Break%22%2C%22start%22%3A1621051200000%2C%22duration%22%3A%2260%22%2C%22type%22%3A%22BREAK%22%7D%2C%7B%22start%22%3A1621054800000%2C%22matchCount%22%3A%2242%22%2C%22type%22%3A%22MATCH%22%7D%5D&rerun=false&minT14=false GET
+18:52:01.892 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:52:01:892 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+18:52:01.960 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:52:01:960 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+18:53:04.067 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:53:04:067 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/schedule/ GET
+18:53:08.198 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:53:08:198 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+18:53:09.485 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:53:09:485 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/schedule/ GET
+18:56:23.003 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:56:23:003 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+18:58:47.441 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:58:47:441 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+18:59:05.801 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:59:05:801 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+18:59:06.079 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:59:06:079 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+18:59:06.667 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:59:06:667 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+19:00:13.654 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:13:653 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:00:15.187 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:15:186 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+19:00:15.489 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:15:489 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+19:00:16.167 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:16:167 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+19:00:31.517 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:31:517 PM, Session: node01qpfxp0ykp17nec17nm2xvmn42, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+19:00:31.540 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:31:540 PM, Session: node01lmy0mn8jkqf11f273sepx2cni3, Route: http://localhost/login/ GET
+19:00:34.119 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:34:119 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:00:35.138 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:35:138 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+19:00:36.824 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:36:824 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:00:37.791 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:37:791 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/edit/ GET
+19:00:44.468 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:44:468 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/edit/ PUT
+19:00:44.585 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:44:585 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:00:46.173 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:46:173 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/edit/ GET
+19:00:53.748 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:53:748 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/edit/ PUT
+19:00:53.868 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:53:868 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:00:58.663 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:58:663 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+19:00:59.122 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:59:122 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+19:00:59.832 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:00:59:832 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+19:01:13.497 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:01:13:497 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/scheduleprivate/ POST
+19:01:15.141 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:01:15:141 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/scheduleprivate/ POST
+19:02:27.809 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:02:27:809 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/runmatchmaker/ POST
+19:02:30.478 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:02:30:478 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/runmatchmaker/ POST
+19:02:34.259 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:02:34:259 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ POST
+19:03:14.186 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:03:14:186 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/bootstrap.min.js.map/ GET
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=1 8639 0 3970 0 2402 0 5858 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=2 1354 0 9156 0 7575 0 1984 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=3 1378 0 821 0 4396 0 9384 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=4 1216 0 6868 0 8686 0 1957 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=5 7050 0 5829 0 1024 0 1792 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=6 5451 0 7201 0 1784 0 1408 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=7 7647 0 2360 0 1090 0 2929 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=8 1337 0 8999 0 1680 0 7851 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=9 6258 0 6986 0 6626 0 1327 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=10 1343 0 4661 0 7500 0 2700 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=11 1339 0 1387 0 1120 0 2988 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=12 6120 0 2929 0 8639 0 1024 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=13 7851 0 1378 0 3970 0 7050 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=14 1784 0 7575 0 7647 0 9384 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=15 5858 0 1354 0 6258 0 1680 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=16 1343 0 1090 0 6986 0 8686 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=17 1327 0 2700 0 5829 0 1408 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=18 1337 0 2988 0 6626 0 6868 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=19 1792 0 2360 0 9156 0 7500 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=20 4396 0 6120 0 1984 0 1216 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=21 1957 0 2402 0 5451 0 1387 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=22 821 0 8999 0 1339 0 4661 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=23 7201 0 1680 0 1120 0 1378 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=24 3970 1 1337 0 1784 0 5829 1
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=25 9384 0 6258 0 7851 0 6120 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=26 2700 0 1984 0 7050 0 2929 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=27 6626 0 7500 0 8639 0 821 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=28 2360 0 1339 0 1327 0 8686 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=29 5451 0 4396 0 2988 0 9156 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=30 6986 0 1957 0 4661 0 1120 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=31 1354 0 1216 0 1090 0 1792 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=32 1024 0 1343 0 2402 0 7201 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=33 5858 0 7647 0 6868 0 1387 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=34 8999 0 7575 0 1408 0 7050 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=35 8686 0 6626 0 7851 0 2700 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=36 1090 0 1327 0 1984 0 1337 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=37 9384 0 7500 0 1354 0 1957 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=38 2929 0 1680 0 6986 0 2402 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=39 4661 0 5451 0 5829 0 6120 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=40 2988 0 8639 0 8999 0 1378 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=41 6868 0 1339 0 7575 0 1024 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=42 1387 0 1784 0 1216 0 1343 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=43 1792 0 5858 0 7201 0 4396 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=44 9156 0 1120 0 7647 0 6258 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=45 1408 0 821 0 2360 0 3970 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=46 2929 0 6626 0 1378 0 7575 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=47 1387 0 9384 0 1680 0 8639 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=48 4396 0 6986 0 1337 0 1354 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=49 1792 0 2988 0 1327 0 1784 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=50 2402 0 7851 0 1216 0 4661 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=51 1984 0 1024 0 2360 0 5451 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=52 6120 0 1343 0 1339 0 7647 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=53 1120 0 7050 0 821 0 5858 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=54 1957 0 1090 0 2700 0 6258 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=55 7201 0 5829 0 9156 0 6868 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=56 7500 0 8686 0 3970 0 8999 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=57 1408 0 1984 0 2988 0 2402 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=58 7050 0 8639 0 1339 0 6986 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=59 821 0 6258 0 1343 0 5451 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=60 4661 0 1337 0 5858 0 1378 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=61 1024 0 6626 0 9384 0 3970 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=62 8686 0 7647 0 1792 0 1408 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=63 5829 0 7851 0 4396 0 1090 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=64 1387 0 1327 0 2929 0 9156 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=65 2700 0 1784 0 6868 0 2360 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=66 8999 0 1354 0 6120 0 7201 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=67 7575 0 1120 0 7500 0 1216 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=68 1680 0 3970 0 1957 0 5829 0
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper.ProcessThread run
+信息: Deleting team list file../lib/MatchMaker/windows\matchGenTeams.txt
+5月 07, 2021 7:03:16 下午 MatchMakerWrapper.ProcessThread run
+信息: MatchMaker result code = 0
+19:03:32.740 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:03:32:740 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/waitformatchmaker/?mpt=6&cycleTime=300000&schedule=%5B%7B%22start%22%3A1621045800000%2C%22matchCount%22%3A%2215%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22label%22%3A%22Lunch+Break%22%2C%22start%22%3A1621051200000%2C%22duration%22%3A%2260%22%2C%22type%22%3A%22BREAK%22%7D%2C%7B%22start%22%3A1621054800000%2C%22matchCount%22%3A%2245%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22start%22%3A1621130400000%2C%22matchCount%22%3A%228%22%2C%22type%22%3A%22MATCH%22%7D%5D&rerun=true&minT14=false GET
+19:03:32.885 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:03:32:885 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+19:03:32.998 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:03:32:998 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+19:03:33.156 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:03:33:156 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/bootstrap.min.js.map/ GET
+19:04:03.536 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:04:03:536 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ POST
+19:04:06.179 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:04:06:179 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ POST
+java.lang.IllegalArgumentException: Match Schedule Blocks does not have the correct number of matches. Found: 68, but need: 79
+	at org.usfirst.ftc.event.management.ManagementSubsystem.setQualificationSchedule(ManagementSubsystem.java:956)
+	at org.usfirst.ftc.event.management.ManagementRoutesLogic.lambda$static$27(ManagementRoutesLogic.java:805)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+19:05:05.446 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:05:05:446 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ POST
+19:05:06.893 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:05:06:893 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/runmatchmaker/ POST
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=1 8999 0 2700 0 4661 0 7500 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=2 2360 0 1378 0 1984 0 821 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=3 1957 0 7851 0 3970 0 6626 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=4 6120 0 4396 0 1387 0 1784 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=5 7050 0 2988 0 6868 0 6986 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=6 1354 0 1120 0 6258 0 1024 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=7 1327 0 8686 0 5858 0 2402 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=8 1343 0 7201 0 8639 0 1090 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=9 1339 0 1408 0 7647 0 1792 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=10 9156 0 2929 0 1680 0 5829 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=11 1216 0 9384 0 5451 0 7575 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=12 7500 0 1337 0 5858 0 1784 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=13 1957 0 1378 0 2402 0 4396 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=14 1090 0 1792 0 6986 0 1354 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=15 1327 0 9156 0 7201 0 1024 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=16 1387 0 8999 0 2360 0 3970 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=17 8686 0 5829 0 821 0 7575 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=18 1216 0 8639 0 7050 0 1337 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=19 2929 0 1343 0 1339 0 1984 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=20 1680 0 1120 0 6868 0 4661 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=21 9384 0 6626 0 7647 0 6120 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=22 2700 0 6258 0 7851 0 5451 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=23 8639 0 1408 0 2988 0 8686 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=24 1984 0 1327 1 1957 0 1216 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=25 7575 0 1339 0 1378 0 1387 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=26 5829 0 2360 0 7201 0 1354 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=27 5858 0 6868 0 1024 0 7851 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=28 9156 0 1792 0 821 0 3970 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=29 2929 0 4661 0 1090 0 1337 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=30 6120 0 2402 0 7500 0 1408 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=31 1784 0 1680 0 2700 0 2988 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=32 4396 0 7647 0 6258 0 6986 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=33 8999 0 9384 0 1120 0 1343 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=34 5451 0 7050 0 6626 0 5858 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=35 7575 0 2929 0 8639 0 1957 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=36 1378 0 1090 0 1327 0 2700 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=37 1792 0 1680 0 7851 0 6120 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=38 7500 0 1339 0 1120 0 2360 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=39 7647 0 9156 0 8999 0 1984 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=40 1343 0 1216 0 8686 0 6626 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=41 5829 0 4661 0 9384 0 1784 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=42 821 0 1354 0 7050 0 4396 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=43 1408 0 6258 0 1387 0 6868 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=44 3970 0 2988 0 1337 0 7201 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=45 5451 0 1024 0 2402 0 6986 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=46 6626 0 2700 0 9156 0 1120 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=47 7851 0 1343 0 1784 0 1327 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=48 1090 0 7050 0 6258 0 1957 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=49 2988 0 821 0 2929 0 1216 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=50 2402 0 1984 0 3970 0 5829 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=51 1024 0 1680 0 1408 0 7575 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=52 1354 0 1387 0 5858 0 9384 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=53 6986 0 7500 0 1378 0 8639 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=54 4396 0 4661 0 1792 0 8686 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=55 6120 0 5451 0 1339 0 8999 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=56 6868 0 7647 0 1337 0 2360 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=57 7201 0 1784 0 7050 0 1408 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=58 6986 0 3970 0 1120 0 2929 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=59 2988 0 5858 0 5829 0 1957 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=60 8686 0 1090 0 1024 0 1339 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=61 1337 0 7851 0 9156 0 1387 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=62 4661 0 1327 0 1354 0 7647 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=63 2360 0 5451 0 8639 0 1680 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=64 821 0 7201 0 6868 0 9384 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=65 2700 0 2402 0 7575 0 1343 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=66 1378 0 6258 0 1792 0 8999 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=67 4396 0 1984 0 7500 0 6626 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=68 6120 0 5858 0 1216 0 9156 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=69 1957 0 1120 0 7647 0 821 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=70 1337 0 1327 0 1408 0 5451 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=71 1354 0 8999 0 8686 0 2929 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=72 7575 0 2360 0 6258 0 2988 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=73 1680 0 1387 0 1343 0 7500 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=74 3970 0 8639 0 9384 0 1339 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=75 6626 0 1024 0 4661 0 1378 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=76 6986 0 2700 0 1984 0 6120 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=77 1784 0 6868 0 1090 0 2402 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=78 7851 0 1216 0 4396 0 7201 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=79 5829 0 7050 0 1792 0 1327 0
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper.ProcessThread run
+信息: Deleting team list file../lib/MatchMaker/windows\matchGenTeams.txt
+5月 07, 2021 7:05:57 下午 MatchMakerWrapper.ProcessThread run
+信息: MatchMaker result code = 0
+19:06:17.171 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:06:17:171 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/waitformatchmaker/?mpt=7&cycleTime=300000&schedule=%5B%7B%22start%22%3A1621045800000%2C%22matchCount%22%3A%2216%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22label%22%3A%22Lunch+Break%22%2C%22start%22%3A1621051200000%2C%22duration%22%3A%2260%22%2C%22type%22%3A%22BREAK%22%7D%2C%7B%22start%22%3A1621054800000%2C%22matchCount%22%3A%2248%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22start%22%3A1621130400000%2C%22matchCount%22%3A%2215%22%2C%22type%22%3A%22MATCH%22%7D%5D&rerun=false&minT14=false GET
+19:06:17.307 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:06:17:307 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+19:06:17.386 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:06:17:386 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+19:06:37.038 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:06:37:038 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:06:40.669 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:06:40:669 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+19:06:42.325 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:06:42:325 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/schedule/ GET
+19:09:10.169 [qtp1029917728-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:10:169 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+19:09:12.238 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:12:238 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/reports/ GET
+19:09:14.277 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:14:277 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+19:09:15.259 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:15:259 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/schedule/ GET
+19:09:20.491 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:20:490 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+19:09:22.144 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:22:144 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/setup/event/ GET
+19:09:23.857 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:23:857 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/ GET
+19:09:23.873 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:23:873 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+19:09:24.930 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:24:930 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:09:26.858 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:26:858 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+19:09:27.120 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:27:120 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+19:09:27.724 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:27:724 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+19:09:34.508 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:34:508 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/runmatchmaker/ POST
+19:09:38.596 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:38:596 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ POST
+19:09:39.670 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:39:670 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ POST
+19:09:39.889 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:39:889 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+19:09:40.205 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:40:205 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+19:09:42.920 [qtp1029917728-61] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:09:42:920 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/runmatchmaker/ POST
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=1 1984 0 1216 0 8999 0 7500 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=2 3970 0 4661 0 6258 0 1784 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=3 6868 0 1024 0 1343 0 2402 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=4 5858 0 5829 0 1408 0 9156 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=5 1327 0 2700 0 1354 0 5451 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=6 2988 0 8686 0 6120 0 9384 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=7 7201 0 8639 0 2929 0 1387 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=8 1337 0 1792 0 6986 0 1378 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=9 821 0 1090 0 1120 0 7851 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=10 4396 0 7050 0 7647 0 2360 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=11 1680 0 1957 0 1339 0 6626 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=12 7575 0 1408 0 7201 0 8999 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=13 5829 0 1387 0 4661 0 6868 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=14 8686 0 7851 0 3970 0 1327 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=15 6986 0 5858 0 9384 0 1984 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=16 6120 0 7050 0 1120 0 7500 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=17 7575 0 1784 0 1378 0 1680 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=18 2402 0 1090 0 1337 0 6258 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=19 2929 0 7647 0 6626 0 5451 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=20 1957 0 4396 0 1792 0 821 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=21 2360 0 1216 0 1339 0 2988 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=22 8639 0 9156 0 2700 0 1024 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=23 6120 0 1343 0 1090 0 1354 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=24 4661 1 7050 0 1378 0 1327 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=25 821 0 6626 0 1387 0 8686 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=26 2360 0 8999 0 2929 0 2402 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=27 1024 0 7201 0 1120 0 9384 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=28 2988 0 1337 0 1784 0 1957 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=29 7851 0 1984 0 5829 0 1339 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=30 7575 0 4396 0 9156 0 1216 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=31 2700 0 1792 0 1408 0 3970 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=32 5451 0 1343 0 7500 0 6258 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=33 1354 0 8639 0 5858 0 7647 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=34 6868 0 1680 0 6986 0 7201 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=35 1387 0 1784 0 7050 0 1090 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=36 4661 0 2929 0 1024 0 8686 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=37 5451 0 8999 0 4396 0 1120 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=38 1339 0 9384 0 7647 0 3970 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=39 7500 0 8639 0 1792 0 7575 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=40 6120 0 6986 0 5829 0 821 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=41 2402 0 1378 0 2700 0 2988 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=42 1216 0 1354 0 1957 0 6868 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=43 1408 0 1327 0 2360 0 1343 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=44 1680 0 6258 0 1984 0 9156 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=45 1337 0 6626 0 7851 0 5858 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=46 1792 0 6120 0 2402 0 1784 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=47 7500 0 2929 0 1957 0 6986 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=48 1216 0 5829 0 7050 0 2700 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=49 6258 0 6868 0 1327 0 1339 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=50 1337 0 7647 0 1984 0 7575 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=51 5451 0 7851 0 9156 0 7201 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=52 8999 0 5858 0 1090 0 1024 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=53 821 0 1408 0 1680 0 1354 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=54 2988 0 3970 0 4396 0 1387 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=55 8686 0 1378 0 2360 0 1120 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=56 9384 0 1343 0 8639 0 4661 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=57 8999 0 1327 0 6626 0 6986 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=58 2700 0 821 0 1784 0 2929 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=59 7500 0 9156 0 1090 0 2988 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=60 1120 0 3970 0 7575 0 2402 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=61 1378 0 1339 0 8639 0 6120 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=62 7647 0 1957 0 8686 0 6258 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=63 7851 0 6868 0 9384 0 2360 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=64 6626 0 7201 0 1343 0 5829 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=65 4661 0 1792 0 5858 0 1680 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=66 1024 0 1984 0 1354 0 4396 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=67 7050 0 1408 0 5451 0 1337 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=68 1216 0 6986 0 1387 0 7851 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=69 1784 0 7500 0 6868 0 8686 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=70 6258 0 2700 0 7201 0 5858 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=71 4396 0 2929 0 1327 0 6120 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=72 2988 0 7575 0 1024 0 5829 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=73 9156 0 7647 0 821 0 4661 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=74 1090 0 1680 0 1216 0 5451 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=75 9384 0 1387 0 1378 0 1957 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=76 1339 0 1354 0 7050 0 8999 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=77 1343 0 1120 0 1984 0 1792 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=78 3970 0 2360 0 8639 0 1337 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=79 6626 0 2402 0 1408 0 4661 0
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper.ProcessThread run
+信息: Deleting team list file../lib/MatchMaker/windows\matchGenTeams.txt
+5月 07, 2021 7:10:30 下午 MatchMakerWrapper.ProcessThread run
+信息: MatchMaker result code = 0
+19:10:50.209 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:10:50:209 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:10:52.576 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:10:52:576 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/schedule/ GET
+19:10:52.877 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:10:52:877 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/plainschedule/ GET
+19:10:53.459 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:10:53:459 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/main.css/ GET
+19:12:08.681 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:12:08:680 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+19:12:15.042 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:12:15:042 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/ GET
+19:12:17.500 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 07:12:17:500 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/schedule/ GET
