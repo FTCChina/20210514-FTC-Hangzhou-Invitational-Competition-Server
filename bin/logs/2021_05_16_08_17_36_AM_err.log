@@ -1,0 +1,124 @@
+08:17:36,203 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+08:17:36,204 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+08:17:36,205 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/C:/Users/Lenovo/Desktop/%e6%af%94%e8%b5%9b%e6%ad%a3%e5%bc%8f%e6%9c%8d%e5%8a%a1%e5%99%a8/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+08:17:36,205 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+08:17:36,205 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/Lenovo/Desktop/%e6%af%94%e8%b5%9b%e6%ad%a3%e5%bc%8f%e6%9c%8d%e5%8a%a1%e5%99%a8/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+08:17:36,205 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/Lenovo/Desktop/%e6%af%94%e8%b5%9b%e6%ad%a3%e5%bc%8f%e6%9c%8d%e5%8a%a1%e5%99%a8/ScoreKeeper-CN-230B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+08:17:36,219 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@123f1134 - URL [jar:file:/C:/Users/Lenovo/Desktop/%e6%af%94%e8%b5%9b%e6%ad%a3%e5%bc%8f%e6%9c%8d%e5%8a%a1%e5%99%a8/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+08:17:36,321 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+08:17:36,322 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+08:17:36,332 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+08:17:36,341 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+08:17:36,379 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+08:17:36,382 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+08:17:36,383 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+08:17:36,384 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+08:17:36,384 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+08:17:36,385 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+08:17:36,385 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+08:17:36,386 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7d68ef40 - Registering current configuration as safe fallback point
+
+08:17:36.449 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @921ms to org.eclipse.jetty.util.log.Slf4jLog
+Checking to see if new accounts need to be created for hz_invitational_21
+Accounts had not been generated for hz_invitational_21 - none missing to create
+08:17:37.857 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+08:17:38.196 [main] INFO  org.usfirst.ftc.event.EventsManager - Loaded active event hz_invitational_21
+08:17:38.207 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+08:17:38.209 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+08:17:38.212 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+08:17:38.315 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+08:17:38.315 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+08:17:38.318 [Thread-21] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 15+36-1562
+08:17:38.342 [Thread-21] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+08:17:38.343 [Thread-21] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+08:17:38.344 [Thread-21] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+08:17:38.349 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@383e4931{/,null,AVAILABLE}
+08:17:38.350 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@50e9eee4{/apiv1,null,AVAILABLE}
+08:17:38.350 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@438616d{/api,null,AVAILABLE}
+08:17:38.361 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3de0905e{/,null,AVAILABLE}
+08:17:38.371 [Thread-21] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@28f8ac6c{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+08:17:38.371 [Thread-21] INFO  org.eclipse.jetty.server.Server - Started @2850ms
+08:17:38.371 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+08:17:38.585 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+08:17:39.155 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:17:39:155 AM, Session: node012lsmi97qjode1got1pmrun9cz0, Route: http://192.169.88.203/event/hz_invitational_21/display/config/ad/false/ad/ad/true/2/00ff00/true/true/false/false/classic/false/ GET
+08:17:39.196 [qtp1672958527-49] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:17:39:196 AM, Session: node012lsmi97qjode1got1pmrun9cz0, Route: http://192.169.88.203/login/ GET
+08:17:44.042 [qtp1672958527-52] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:17:44:042 AM, Session: node013301kjb43uvoyq76w5e7ouye1, Route: http://localhost/ GET
+08:17:47.012 [qtp1672958527-51] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:17:47:012 AM, Session: node013301kjb43uvoyq76w5e7ouye1, Route: http://localhost/event/hz_invitational_21/ GET
+08:17:49.847 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:17:49:847 AM, Session: node013301kjb43uvoyq76w5e7ouye1, Route: http://localhost/login/ GET
+08:18:02.198 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:02:198 AM, Session: node013301kjb43uvoyq76w5e7ouye1, Route: http://localhost/callback/ POST
+08:18:02.748 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:02:748 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/ GET
+08:18:02.792 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:02:792 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/event/hz_invitational_21/ GET
+08:18:11.502 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:11:501 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/event/hz_invitational_21/display/ GET
+08:18:14.122 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:14:121 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/event/hz_invitational_21/display/pit/ GET
+08:18:16.401 [qtp1672958527-66] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:16:401 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/assets/manifest/ GET
+08:18:21.788 [qtp1672958527-51] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:21:788 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/event/hz_invitational_21/display/config/ad/false/ad/ad/false/0/00ff00/true/false/false/false/classic/false/ GET
+08:18:22.310 [qtp1672958527-51] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:22:310 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/assets/manifest/ GET
+08:18:27.861 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+08:18:28.357 [qtp1672958527-52] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:28:357 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/event/hz_invitational_21/display/config/ad/false/ad/ad/false/0/00ff00/true/false/false/false/classic/false/ GET
+08:18:28.709 [qtp1672958527-52] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:18:28:709 AM, Session: node01246sg156ziqu1s0d0sqkuio2o2, Route: http://localhost/assets/manifest/ GET
+08:20:38.328 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:20:38:328 AM, Session: node015xqhg1d8o460sn7uowsfl6bu3, Route: http://192.169.88.203/ GET
+08:20:38.336 [qtp1672958527-64] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:20:38:336 AM, Session: node015xqhg1d8o460sn7uowsfl6bu3, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:20:40.410 [qtp1672958527-67] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:20:40:410 AM, Session: node012lsmi97qjode1got1pmrun9cz0, Route: http://192.169.88.203/login/ GET
+08:20:49.063 [qtp1672958527-69] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:20:49:063 AM, Session: node015xqhg1d8o460sn7uowsfl6bu3, Route: http://192.169.88.203/login/ GET
+08:20:56.322 [qtp1672958527-50] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:20:56:322 AM, Session: node015xqhg1d8o460sn7uowsfl6bu3, Route: http://192.169.88.203/callback/ POST
+08:20:56.590 [qtp1672958527-52] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:20:56:590 AM, Session: node0ihv1i54cb7jd1qhdb0ozqqzes4, Route: http://192.169.88.203/ GET
+08:20:56.609 [qtp1672958527-50] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:20:56:609 AM, Session: node0ihv1i54cb7jd1qhdb0ozqqzes4, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:21:01.406 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:21:01:406 AM, Session: node0ihv1i54cb7jd1qhdb0ozqqzes4, Route: http://192.169.88.203/event/hz_invitational_21/display/ GET
+08:21:04.572 [qtp1672958527-65] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:21:04:572 AM, Session: node0ihv1i54cb7jd1qhdb0ozqqzes4, Route: http://192.169.88.203/assets/manifest/ GET
+08:21:13.818 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:21:13:818 AM, Session: node0ihv1i54cb7jd1qhdb0ozqqzes4, Route: http://192.169.88.203/event/hz_invitational_21/display/config/ad/false/ad/ad/true/1/00ff00/true/true/false/false/classic/false/ GET
+08:21:14.085 [qtp1672958527-64] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:21:14:085 AM, Session: node0ihv1i54cb7jd1qhdb0ozqqzes4, Route: http://192.169.88.203/assets/manifest/ GET
+08:22:53.158 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:22:53:158 AM, Session: node012lsmi97qjode1got1pmrun9cz0, Route: http://192.169.88.203/callback/ POST
+08:22:53.441 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:22:53:441 AM, Session: node012lsmi97qjode1got1pmrun9cz0, Route: http://192.169.88.203/login/?username=scorekeeper&error=CredentialsException GET
+08:23:02.379 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:02:379 AM, Session: node012lsmi97qjode1got1pmrun9cz0, Route: http://192.169.88.203/callback/ POST
+08:23:02.755 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:02:755 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/event/hz_invitational_21/display/config/ad/false/ad/ad/true/2/00ff00/true/true/false/false/classic/false/ GET
+08:23:05.445 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:05:445 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/ GET
+08:23:05.462 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:05:462 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:23:08.239 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:08:239 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/users/me/ GET
+08:23:10.164 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:10:164 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/logout/ GET
+08:23:10.183 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:10:183 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/ GET
+08:23:10.201 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:10:201 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:23:11.812 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:11:812 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/login/ GET
+08:23:17.324 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:17:324 AM, Session: node0vndwb0723bdddah93btn1xcw38, Route: http://192.169.88.203/callback/ POST
+08:23:17.703 [qtp1672958527-70] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:17:703 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/ GET
+08:23:17.723 [qtp1672958527-69] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:17:723 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:23:19.721 [qtp1672958527-70] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:19:721 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/event/hz_invitational_21/display/ GET
+08:23:22.370 [qtp1672958527-68] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:22:370 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/assets/manifest/ GET
+08:23:26.802 [qtp1672958527-68] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:26:802 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/event/hz_invitational_21/display/config/ad/false/ad/ad/true/2/00ff00/true/true/false/false/classic/false/ GET
+08:23:27.583 [qtp1672958527-70] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:23:27:583 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/assets/manifest/ GET
+08:26:16.517 [qtp1672958527-67] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:26:16:517 AM, Session: node01k9jgx2wkdw6dqzabbiaj2zze116, Route: http://192.169.88.203/ GET
+08:26:16.533 [qtp1672958527-70] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:26:16:533 AM, Session: node01k9jgx2wkdw6dqzabbiaj2zze116, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:26:18.216 [qtp1672958527-69] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:26:18:216 AM, Session: node01k9jgx2wkdw6dqzabbiaj2zze116, Route: http://192.169.88.203/login/ GET
+08:27:07.314 [qtp1672958527-67] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:07:314 AM, Session: node091d8n3wpniefljri6tklipow117, Route: http://192.169.88.203/ GET
+08:27:07.324 [qtp1672958527-69] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:07:324 AM, Session: node091d8n3wpniefljri6tklipow117, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:27:08.683 [qtp1672958527-53] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:08:683 AM, Session: node091d8n3wpniefljri6tklipow117, Route: http://192.169.88.203/login/ GET
+08:27:20.872 [qtp1672958527-70] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:20:872 AM, Session: node01hi0k0dif8qj1242k5dylqp2n118, Route: http://192.169.88.203/event/hz_invitational_21/ref/field/2/blue/ GET
+08:27:20.964 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:20:964 AM, Session: node01hi0k0dif8qj1242k5dylqp2n118, Route: http://192.169.88.203/login/ GET
+08:27:26.219 [qtp1672958527-70] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:26:219 AM, Session: node01hi0k0dif8qj1242k5dylqp2n118, Route: http://192.169.88.203/callback/ POST
+08:27:26.560 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:26:560 AM, Session: node0nc5qi22dm2il1rkjt0n1nl996119, Route: http://192.169.88.203/event/hz_invitational_21/ref/field/2/blue/ GET
+Connecting 2021杭州赛区邀请赛's BLUE ref for match 0
+08:27:28.433 [qtp1672958527-70] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:28:433 AM, Session: node0nc5qi22dm2il1rkjt0n1nl996119, Route: http://192.169.88.203/ GET
+08:27:28.462 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:28:462 AM, Session: node0nc5qi22dm2il1rkjt0n1nl996119, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+Closing 2021杭州赛区邀请赛's BLUE ref for match 0
+08:27:30.157 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:30:157 AM, Session: node0nc5qi22dm2il1rkjt0n1nl996119, Route: http://192.169.88.203/event/hz_invitational_21/ref/blue/ GET
+08:27:31.409 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:31:409 AM, Session: node0nc5qi22dm2il1rkjt0n1nl996119, Route: http://192.169.88.203/event/hz_invitational_21/ref/field/2/blue/ GET
+Connecting 2021杭州赛区邀请赛's BLUE ref for match 0
+08:27:32.915 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:32:915 AM, Session: node0nc5qi22dm2il1rkjt0n1nl996119, Route: http://192.169.88.203/ GET
+08:27:32.941 [qtp1672958527-69] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:32:941 AM, Session: node0nc5qi22dm2il1rkjt0n1nl996119, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+Closing 2021杭州赛区邀请赛's BLUE ref for match 0
+08:27:42.665 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:42:665 AM, Session: node091d8n3wpniefljri6tklipow117, Route: http://192.169.88.203/callback/ POST
+08:27:43.087 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:43:087 AM, Session: node0au7meghk3fkg16pfnt9dfmltl120, Route: http://192.169.88.203/ GET
+08:27:43.105 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:27:43:105 AM, Session: node0au7meghk3fkg16pfnt9dfmltl120, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:28:18.828 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:28:18:828 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/assets/manifest/ GET
+08:29:02.978 [qtp1672958527-68] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:02:978 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/event/hz_invitational_21/status/ GET
+08:29:21.345 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:21:345 AM, Session: node02iaheurbnkzb1v8u6wk3wd5d245, Route: http://192.169.88.203/callback/ POST
+08:29:21.618 [qtp1672958527-65] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:21:618 AM, Session: node0pkt71xasgkrb1rra1atpvdz90121, Route: http://192.169.88.203/ GET
+08:29:21.637 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:21:637 AM, Session: node0pkt71xasgkrb1rra1atpvdz90121, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:29:25.029 [qtp1672958527-65] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:25:029 AM, Session: node0pkt71xasgkrb1rra1atpvdz90121, Route: http://192.169.88.203/event/hz_invitational_21/display/ GET
+08:29:25.437 [qtp1672958527-65] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:25:437 AM, Session: node0pkt71xasgkrb1rra1atpvdz90121, Route: http://192.169.88.203/assets/manifest/ GET
+08:29:31.023 [qtp1672958527-60] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:31:023 AM, Session: node0pkt71xasgkrb1rra1atpvdz90121, Route: http://192.169.88.203/event/hz_invitational_21/display/config/ad/false/ad/ad/true/2/00ff00/true/false/false/false/classic/false/ GET
+08:29:31.230 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:31:230 AM, Session: node0pkt71xasgkrb1rra1atpvdz90121, Route: http://192.169.88.203/assets/manifest/ GET
+08:29:50.992 [qtp1672958527-63] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:50:992 AM, Session: node01k9jgx2wkdw6dqzabbiaj2zze116, Route: http://192.169.88.203/callback/ POST
+08:29:51.473 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:51:473 AM, Session: node01ibnhonjeo4z51lw2f1h8gaina122, Route: http://192.169.88.203/ GET
+08:29:51.508 [qtp1672958527-59] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:51:508 AM, Session: node01ibnhonjeo4z51lw2f1h8gaina122, Route: http://192.169.88.203/event/hz_invitational_21/ GET
+08:29:53.693 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:53:693 AM, Session: node01ibnhonjeo4z51lw2f1h8gaina122, Route: http://192.169.88.203/event/hz_invitational_21/control/ GET
+08:29:53.808 [qtp1672958527-55] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 08:29:53:807 AM, Session: node01ibnhonjeo4z51lw2f1h8gaina122, Route: http://192.169.88.203/event/hz_invitational_21/control/schedule/ GET
