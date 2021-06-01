@@ -10928,3 +10928,5 @@ Caused by: java.io.IOException: Connection reset by peer
 	... 21 common frames omitted
 17:25:22.738 [qtp1672958527-550] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 05:25:22:738 PM, Session: node01ibnhonjeo4z51lw2f1h8gaina122, Route: http://192.169.88.203/event/hz_invitational_21/control/sponsors/ POST
 17:25:24.001 [qtp1672958527-548] INFO  org.usfirst.ftc.server.Server - Time: 05/16/2021 05:25:24:001 PM, Session: node01ibnhonjeo4z51lw2f1h8gaina122, Route: http://192.169.88.203/event/hz_invitational_21/control/sponsors/ POST
+17:53:54.564 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater interrupted! Performing final queue dump and terminating.
+17:53:54.564 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater iterminating.
